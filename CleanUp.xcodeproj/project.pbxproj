@@ -1,0 +1,399 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19B9939FE49D83C3DE5F1E92 /* libPods-CleanUp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CC729BA664AB7C77BCA06A0A /* libPods-CleanUp.a */; };
+		9C558F8F1FF14505003F9F37 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C558F8E1FF14505003F9F37 /* AppDelegate.m */; };
+		9C558F941FF14505003F9F37 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C558F921FF14505003F9F37 /* MainMenu.xib */; };
+		9C558F971FF14505003F9F37 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C558F961FF14505003F9F37 /* main.m */; };
+		9C558FA21FF1D2AE003F9F37 /* script.sh in Resources */ = {isa = PBXBuildFile; fileRef = 9C558FA11FF1D2AE003F9F37 /* script.sh */; };
+		9C558FA81FF1E029003F9F37 /* empty.png.icns in Resources */ = {isa = PBXBuildFile; fileRef = 9C558FA71FF1E029003F9F37 /* empty.png.icns */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9C558F8A1FF14505003F9F37 /* CleanUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CleanUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C558F8D1FF14505003F9F37 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9C558F8E1FF14505003F9F37 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9C558F931FF14505003F9F37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		9C558F951FF14505003F9F37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C558F961FF14505003F9F37 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9C558FA11FF1D2AE003F9F37 /* script.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = script.sh; sourceTree = "<group>"; };
+		9C558FA71FF1E029003F9F37 /* empty.png.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = empty.png.icns; sourceTree = "<group>"; };
+		CC729BA664AB7C77BCA06A0A /* libPods-CleanUp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CleanUp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDEE8D71052428AD0D23C348 /* Pods-CleanUp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CleanUp.release.xcconfig"; path = "Pods/Target Support Files/Pods-CleanUp/Pods-CleanUp.release.xcconfig"; sourceTree = "<group>"; };
+		D073F3D47011672CD4D88643 /* Pods-CleanUp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CleanUp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CleanUp/Pods-CleanUp.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9C558F871FF14505003F9F37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19B9939FE49D83C3DE5F1E92 /* libPods-CleanUp.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		48A50F9379A5F7005A6BD920 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CC729BA664AB7C77BCA06A0A /* libPods-CleanUp.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		48F36CD6D9F68505602E0C9D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D073F3D47011672CD4D88643 /* Pods-CleanUp.debug.xcconfig */,
+				CDEE8D71052428AD0D23C348 /* Pods-CleanUp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9C558F811FF14505003F9F37 = {
+			isa = PBXGroup;
+			children = (
+				9C558F8C1FF14505003F9F37 /* CleanUp */,
+				9C558F8B1FF14505003F9F37 /* Products */,
+				48F36CD6D9F68505602E0C9D /* Pods */,
+				48A50F9379A5F7005A6BD920 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9C558F8B1FF14505003F9F37 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9C558F8A1FF14505003F9F37 /* CleanUp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9C558F8C1FF14505003F9F37 /* CleanUp */ = {
+			isa = PBXGroup;
+			children = (
+				9C558FA71FF1E029003F9F37 /* empty.png.icns */,
+				9C558FA11FF1D2AE003F9F37 /* script.sh */,
+				9C558F8D1FF14505003F9F37 /* AppDelegate.h */,
+				9C558F8E1FF14505003F9F37 /* AppDelegate.m */,
+				9C558F921FF14505003F9F37 /* MainMenu.xib */,
+				9C558F951FF14505003F9F37 /* Info.plist */,
+				9C558F961FF14505003F9F37 /* main.m */,
+			);
+			path = CleanUp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9C558F891FF14505003F9F37 /* CleanUp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C558F9B1FF14505003F9F37 /* Build configuration list for PBXNativeTarget "CleanUp" */;
+			buildPhases = (
+				2549931D158E503EB0656F1F /* [CP] Check Pods Manifest.lock */,
+				9C558F861FF14505003F9F37 /* Sources */,
+				9C558F871FF14505003F9F37 /* Frameworks */,
+				9C558F881FF14505003F9F37 /* Resources */,
+				F46FC0B5EE87AFDCB164C1F7 /* [CP] Embed Pods Frameworks */,
+				0DD350011EDE37C8D61D3F3E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CleanUp;
+			productName = CleanUp;
+			productReference = 9C558F8A1FF14505003F9F37 /* CleanUp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9C558F821FF14505003F9F37 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Tywin;
+				TargetAttributes = {
+					9C558F891FF14505003F9F37 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 9C558F851FF14505003F9F37 /* Build configuration list for PBXProject "CleanUp" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9C558F811FF14505003F9F37;
+			productRefGroup = 9C558F8B1FF14505003F9F37 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9C558F891FF14505003F9F37 /* CleanUp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9C558F881FF14505003F9F37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C558FA81FF1E029003F9F37 /* empty.png.icns in Resources */,
+				9C558FA21FF1D2AE003F9F37 /* script.sh in Resources */,
+				9C558F941FF14505003F9F37 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0DD350011EDE37C8D61D3F3E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CleanUp/Pods-CleanUp-resources.sh\"\n";
+		};
+		2549931D158E503EB0656F1F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CleanUp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F46FC0B5EE87AFDCB164C1F7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CleanUp/Pods-CleanUp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9C558F861FF14505003F9F37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C558F971FF14505003F9F37 /* main.m in Sources */,
+				9C558F8F1FF14505003F9F37 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9C558F921FF14505003F9F37 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C558F931FF14505003F9F37 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9C558F991FF14505003F9F37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		9C558F9A1FF14505003F9F37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		9C558F9C1FF14505003F9F37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D073F3D47011672CD4D88643 /* Pods-CleanUp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = CleanUp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = tywin.app.CleanUp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		9C558F9D1FF14505003F9F37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDEE8D71052428AD0D23C348 /* Pods-CleanUp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = CleanUp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = tywin.app.CleanUp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9C558F851FF14505003F9F37 /* Build configuration list for PBXProject "CleanUp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C558F991FF14505003F9F37 /* Debug */,
+				9C558F9A1FF14505003F9F37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C558F9B1FF14505003F9F37 /* Build configuration list for PBXNativeTarget "CleanUp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C558F9C1FF14505003F9F37 /* Debug */,
+				9C558F9D1FF14505003F9F37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9C558F821FF14505003F9F37 /* Project object */;
+}

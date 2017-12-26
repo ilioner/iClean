@@ -1,0 +1,3 @@
+target 'CleanUp'
+
+pod 'STPrivilegedTask'
